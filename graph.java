@@ -1,5 +1,10 @@
 import java.util.*;
+<<<<<<< HEAD
 import fun from 313room;
+import MK from seetha heart;
+=======
+import fun from 313rooml;
+>>>>>>> 450dd2c14b847e9a30c83658749999e09b8b7770
 
 class graph{
 
@@ -9,7 +14,7 @@ class graph{
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter the node and edged : ");
+        System.out.print("Enter the no of node and edged : ");
         int nv = scan.nextInt(), ne = scan.nextInt();
         int i,j;
         int[][] amat = new int[nv+1][nv+1];
@@ -81,3 +86,5 @@ class Solution {
     }
 }
 */
+
+//this is my change
