@@ -1,5 +1,14 @@
 import java.util.*;
+<<<<<<< HEAD
 import fun from 313room;
+=======
+<<<<<<< HEAD
+import fun from 313room;
+import MK from seetha heart;
+=======
+import fun from 313rooml;
+>>>>>>> 450dd2c14b847e9a30c83658749999e09b8b7770
+>>>>>>> d690e41a6a99cfe50ba09ef75e6459fb8b0781cb
 
 class graph{
 
@@ -9,7 +18,11 @@ class graph{
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+<<<<<<< HEAD
         System.out.print("Enter the node and edged : ");
+=======
+        System.out.print("Enter the no of node and edged : ");
+>>>>>>> d690e41a6a99cfe50ba09ef75e6459fb8b0781cb
         int nv = scan.nextInt(), ne = scan.nextInt();
         int i,j;
         int[][] amat = new int[nv+1][nv+1];
