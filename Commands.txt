@@ -32,3 +32,155 @@ git reset
 Makes the current branch point to some specific revision or branch.
 
 git reset --hard
+
+
+
+
+
+//Sabarish
+
+
+Microsoft Windows [Version 10.0.19045.2364]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Dell\Documents\temp\test>git init
+Initialized empty Git repository in C:/Users/Dell/Documents/temp/test/.git/
+
+C:\Users\Dell\Documents\temp\test>git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\Users\Dell\Documents\temp\test>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Trees.java
+        graph.java
+        linked_list.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Dell\Documents\temp\test>git add .
+
+C:\Users\Dell\Documents\temp\test>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Trees.java
+        new file:   graph.java
+        new file:   linked_list.java
+
+
+C:\Users\Dell\Documents\temp\test>git commit -m "initial commit"
+[master (root-commit) 2229599] initial commit
+ 3 files changed, 254 insertions(+)
+ create mode 100644 Trees.java
+ create mode 100644 graph.java
+ create mode 100644 linked_list.java
+
+C:\Users\Dell\Documents\temp\test>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\Dell\Documents\temp\test>git remote add orgin "https://github.com/coder-Sabarish/Practice.git"
+
+C:\Users\Dell\Documents\temp\test>git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+C:\Users\Dell\Documents\temp\test> git push orgin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 2.19 KiB | 2.19 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/coder-Sabarish/Practice/pull/new/master
+remote:
+To https://github.com/coder-Sabarish/Practice.git
+ * [new branch]      master -> master
+
+C:\Users\Dell\Documents\temp\test>git branch
+* master
+
+C:\Users\Dell\Documents\temp\test>git branch main
+
+C:\Users\Dell\Documents\temp\test>git branch
+  main
+* master
+
+C:\Users\Dell\Documents\temp\test>git checkout main
+Switched to branch 'main'
+
+C:\Users\Dell\Documents\temp\test>git branch
+* main
+  master
+
+C:\Users\Dell\Documents\temp\test> git push orgin
+To https://github.com/coder-Sabarish/Practice.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/coder-Sabarish/Practice.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\Dell\Documents\temp\test>git fetch
+
+C:\Users\Dell\Documents\temp\test> git push orgin
+To https://github.com/coder-Sabarish/Practice.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/coder-Sabarish/Practice.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\Dell\Documents\temp\test>git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=orgin/<branch> main
+
+
+C:\Users\Dell\Documents\temp\test>git pull orgin main
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 605 bytes | 75.00 KiB/s, done.
+From https://github.com/coder-Sabarish/Practice
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> orgin/main
+fatal: refusing to merge unrelated histories
+
+C:\Users\Dell\Documents\temp\test>git checkout master
+Switched to branch 'master'
+
+C:\Users\Dell\Documents\temp\test>
+
+C:\Users\Dell\Documents\temp\test>
