@@ -1,5 +1,7 @@
 git add
 Puts current working files into the stage (aka index or cache)
+$ git add .
+
 
 git checkout
 Replaces the current working files with files from a branch.
@@ -12,6 +14,8 @@ Clone an existing repository into a new directory.
 
 git commit
 Commits staged changes to a local branch
+$ git commit -m "fourth commit"
+
 
 git commit -a
 Commits all modified files to a local branch (shorthand for "git add" followed by "git commit" for each modified file)
@@ -27,6 +31,17 @@ Fetches remote changes on the current branch into the local clone, and merges th
 
 git push
 Uploads changes from all local branches to the respective remote repositories.
+$ git push -u orgin
+
+
+
+E:\Mukilan Assignments\Infotainment\Project\Git_work>git clone "https://github.com/RANJITHKUMAR-E/Practice.git"
+Cloning into 'Practice'...
+remote: Enumerating objects: 13, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (13/13), done.
+remote: Total 13 (delta 0), reused 13 (delta 0), pack-reused 0
+Receiving objects: 100% (13/13), 309.78 KiB | 2.44 MiB/s, done.
 
 git reset
 Makes the current branch point to some specific revision or branch.
@@ -37,7 +52,7 @@ git reset --hard
 
 
 
-//Sabarish
+sab
 
 
 Microsoft Windows [Version 10.0.19045.2364]
