@@ -28,6 +28,15 @@ Fetches remote changes on the current branch into the local clone, and merges th
 git push
 Uploads changes from all local branches to the respective remote repositories.
 
+
+E:\Mukilan Assignments\Infotainment\Project\Git_work>git clone "https://github.com/RANJITHKUMAR-E/Practice.git"
+Cloning into 'Practice'...
+remote: Enumerating objects: 13, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (13/13), done.
+remote: Total 13 (delta 0), reused 13 (delta 0), pack-reused 0
+Receiving objects: 100% (13/13), 309.78 KiB | 2.44 MiB/s, done.
+
 git reset
 Makes the current branch point to some specific revision or branch.
 
