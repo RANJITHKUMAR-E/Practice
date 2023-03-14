@@ -1,4 +1,5 @@
 git add
+git add .
 Puts current working files into the stage (aka index or cache)
 $ git add .
 
