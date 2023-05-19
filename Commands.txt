@@ -3,6 +3,8 @@ git add .
 Puts current working files into the stage (aka index or cache)
 $ git add .
 
+git clone
+
 
 git checkout
 Replaces the current working files with files from a branch.
